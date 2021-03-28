@@ -1,0 +1,6 @@
+repos:
+  - repo: https://github.com/awslabs/cfn-python-lint
+    rev: v0.48.1 # The version of cfn-lint to use
+    hooks:
+      - id: cfn-python-lint
+        files: cfn-templates/.*\.(json|yml|yaml)$
