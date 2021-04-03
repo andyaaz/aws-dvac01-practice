@@ -3,4 +3,4 @@ repos:
     rev: v0.48.1 # The version of cfn-lint to use
     hooks:
       - id: cfn-python-lint
-        files: cfn-templates/.*\.(json|yml|yaml)$
+        files: (sam-lambda-authorizer|cfn-templates)/.*\.(json|yml|yaml)$
